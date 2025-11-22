@@ -1,16 +1,16 @@
 # 🎮 Word-match Memory Game
 
-轻量级的单词记忆配对游戏（基于 tkinter）。本仓库包含 UI 界面、游戏逻辑、资源文件和简单的排行榜保存功能，适合在 Windows 上使用 Python 本地运行与调试。🚀
+轻量级的单词记忆配对游戏（基于 `tkinter`）。本仓库包含 UI 界面、游戏逻辑、资源文件和简单的排行榜保存功能，适合在 Windows 上使用 Python 本地运行与调试。🚀
 
 ## ⚡ 快速开始
 
-1. 确保使用的 Python 已包含 tkinter（Windows 下默认包含）。🐍
+1. 确保使用的 Python 已包含 `tkinter`（Windows 下默认包含）。🐍
 2. 在项目根目录打开终端（例如 PowerShell 或 cmd）：
    - 推荐创建虚拟环境（可选）：
-     - python -m venv .venv
-     - .venv\Scripts\activate
+     - `python -m venv .venv`
+     - `.venv\Scripts\activate`
    - 运行：
-     - python main.py
+     - `python main.py`
 
 ## 📁 项目结构（关键文件）
 
@@ -35,7 +35,7 @@
 
 ## ✨ 功能说明
 
-- 新游戏配置：选择难度（Easy/Mid/Hard），选择模式（A-A / B-B / A-B），以及是否彩色卡片。🎚️
+- 新游戏配置：选择难度（`Easy`/`Mid`/`Hard`），选择模式（`A-A` / `B-B` / `A-B`），以及是否彩色卡片。🎚️
   - 难度对应网格大小定义在 [`game/config.py`](game/config.py) 的 DIFFICULTIES。
 - 三种配对模式：
   - A-A：相同词对（英文字母/单词与单词）
@@ -53,28 +53,38 @@
 
 - new game 界面
 
-![alt text](docs/newgame.png)
+<p align="center">
+  <img src="docs/newgame.png" alt="new game" style="max-width:80%; height:auto;">
+</p>
 
 - gaming 界面
 
-![alt text](docs/gaming.gif)
+<p align="center">
+  <img src="docs/gaming.gif" alt="gaming" style="max-width:80%; height:auto;">
+</p>
 
 - ratings 界面（配色灵感来自 [Codeforces](https://codeforces.com)）
 
-![alt text](docs/ratings.png)
+<p align="center">
+  <img src="docs/ratings.png" alt="ratings" style="max-width:80%; height:auto;">
+</p>
 
 ## 🗂️ 资源与数据格式
 
-- 词库（assets/words.json）格式：顶层 JSON 对象，键为单词，值为含义，例如：
+- 词库（`assets/words.json`）格式：顶层 JSON 对象，键为单词，值为含义，例如：
+~~~json
   {
     "abandon": "v. 放弃",
     "Apple": "n. 苹果"
   }
-- 排行榜（assets/ratings.json）格式：数组，每项包含 name 和 rating。如：
+~~~
+- 排行榜（`assets/ratings.json`）格式：数组，每项包含 name 和 rating。如：
+~~~json
   [
     {"name": "Alice", "rating": 1500},
     {"name": "Bob", "rating": 1200}
   ]
+~~~
 
 ## 🐞 常见问题 & 调试提示
 
@@ -98,6 +108,6 @@
 
 ## 🤝 贡献
 
-欢迎提交 issue 或 pull request。🤗
+欢迎提交 issue 或 pr。🤗
 
 > 2025.11.22
