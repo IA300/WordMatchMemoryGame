@@ -83,11 +83,10 @@
 - 调试 UI：在 VS Code 中打开项目根目录，运行 `main.py`，或在 IDE 的 Python 交互/调试配置中设置断点查看页面与逻辑。
 - 日志/错误：项目当前使用简单的 messagebox 或 try/except 捕获，运行时请在终端查看 Python 输出以获得堆栈信息。📝
 
-## 🚀 发布与下载（releasev1.0）
+## 🚀 发布与下载
 
-- 新增：releasev1.0（已使用 PyInstaller 打包，Windows 可直接运行）—— 下载即玩。
+- 新增：[release-v1.0](https://github.com/IA300/Python-Tkinter-WordMatchMemoryGame/releases/tag/pyinstaller)（已使用 PyInstaller 打包，Windows 可直接运行）—— 下载即玩。
   - 在仓库 Releases 页面找到 releasev1.0（通常为 zip 或 exe），下载后解压运行目录下的 main.exe 或双击可执行文件即可开始游戏。📦
-  - 如果需要在本机重新打包，可使用：pyinstaller --onefile --windowed main.py
 - 注意：打包文件可能依赖本地环境（例如防病毒拦截或缺少 VC 运行时），遇到问题请参考 PyInstaller 文档或直接通过源码运行。⚠️
 
 ## 🔮 未来可扩展点
