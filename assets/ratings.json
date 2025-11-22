@@ -4,48 +4,12 @@
     "rating": 5800
   },
   {
-    "name": "212 ",
-    "rating": 3265
-  },
-  {
     "name": "51",
     "rating": 3161
   },
   {
-    "name": "21534",
-    "rating": 3124
-  },
-  {
-    "name": "3123",
-    "rating": 2910
-  },
-  {
-    "name": "12345",
-    "rating": 2767
-  },
-  {
-    "name": "4123",
-    "rating": 2455
-  },
-  {
     "name": "Anonymous",
     "rating": 2110
-  },
-  {
-    "name": "123",
-    "rating": 2104
-  },
-  {
-    "name": "111",
-    "rating": 2104
-  },
-  {
-    "name": "23123",
-    "rating": 2092
-  },
-  {
-    "name": "4123",
-    "rating": 1987
   },
   {
     "name": "123",
@@ -56,7 +20,7 @@
     "rating": 1943
   },
   {
-    "name": "555",
+    "name": "Bob",
     "rating": 1740
   },
   {
@@ -68,7 +32,7 @@
     "rating": 1252
   },
   {
-    "name": "Anonymous",
-    "rating": 1234
+    "name": "Alice",
+    "rating": 856
   }
 ]
