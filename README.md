@@ -63,7 +63,7 @@
   <img src="docs/gaming.gif" alt="gaming" style="max-width:80%; height:auto;">
 </p>
 
-- ratings 界面（配色灵感来自 [Codeforces](https://codeforces.com)）
+- ratings 界面（配色灵感来自 [Codeforces](https://codeforces.com/blog/entry/3064)）
 
 <p align="center">
   <img src="docs/ratings.png" alt="ratings" style="max-width:80%; height:auto;">
