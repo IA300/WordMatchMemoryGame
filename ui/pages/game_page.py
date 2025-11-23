@@ -299,9 +299,11 @@ class GamePage(tk.Frame):
             if self.matched_pairs == self.total_pairs:
                 self.after(500, self._game_complete)
         else:
+            
             # 失败
             self.penalty_time += 5
             self.penalty_label.config(text=f"Penalty: {self.penalty_time}")
+            
             for cid in [id1, id2]:
                 self.card_identities[cid]["button"].config(text="?")
                 self.card_states[cid] = "hidden"
@@ -378,7 +380,7 @@ class GamePage(tk.Frame):
 
         self._exit_game()
 
-    # ====== 新增：键盘支持相关函数 ======
+    # ====== 键盘支持相关函数 ======
     def _bind_keys(self):
         # 绑定到 root，确保窗口任何地方都能接收按键
         root = self.parent
