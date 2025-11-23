@@ -12,6 +12,9 @@ class GamePage(tk.Frame):
         super().__init__(parent)
         self.parent = parent
 
+        # 保证随机性
+        random.seed(time.time())
+
         # 页面标题（会在 start 时更新为难度/模式）
         self.title_label = Label(self, text="Memory Game", **LABEL_CONFIG)
         self.title_label.place(anchor="n", relx=0.5, rely=0.02)
@@ -195,10 +198,16 @@ class GamePage(tk.Frame):
         tot = n * m
         assert tot % 2 == 0
 
+        # 所有的单词列表
         items = list(self.word_dict.items())
+        # 单词个数
         k = len(items)
+
+        # 分配位置
         positions = list(range(tot))
         random.shuffle(positions)
+        
+        # 单词分配顺序
         indices = list(range(k))
         random.shuffle(indices)
 
@@ -206,11 +215,15 @@ class GamePage(tk.Frame):
         card_id = 0
 
         for i in range(0, tot, 2):
+            # 按顺序选取一个单词
             idx = indices[(i // 2) % k]
+            # 获取 单词 与 释义
             word, meaning = items[idx]
+            # 按顺序选取一对位置
             x1, y1 = positions[i] // m, positions[i] % m
             x2, y2 = positions[i + 1] // m, positions[i + 1] % m
 
+            # 根据模式设置 A B 内容与类型
             if self.mode == "A-A":
                 c1, t1 = word, "A"
                 c2, t2 = word, "A"
@@ -224,6 +237,7 @@ class GamePage(tk.Frame):
                 c2, t2 = meaning, "B"
                 pid = f"{word}|{meaning}"
 
+            # 加入到数据中 
             card_data.append(
                 {
                     "position": (x1, y1), # 位置

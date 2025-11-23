@@ -1,4 +1,4 @@
-# 🎮 Word-match Memory Game
+# 🎮 Word-Match Memory Game
 
 轻量级的单词记忆配对游戏（基于 `tkinter`）。本仓库包含 UI 界面、游戏逻辑、资源文件和简单的排行榜保存功能，适合在 Windows 上使用 Python 本地运行与调试。🚀
 
