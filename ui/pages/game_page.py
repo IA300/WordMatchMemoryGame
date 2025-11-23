@@ -194,8 +194,7 @@ class GamePage(tk.Frame):
     def _generate_card_data(self):
         n, m = self.rows, self.cols
         tot = n * m
-        assert tot % 2 == 0
-
+        
         # 所有的单词列表
         items = list(self.word_dict.items())
         # 单词个数
