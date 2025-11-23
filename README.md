@@ -31,7 +31,6 @@
   - words.json — 默认词库
   - ratings.json — 排行榜数据
   - 其他示例资源（cheat.json, alphabeta.json）
-- test.json — 测试用小词库示例
 
 ## ✨ 功能说明
 

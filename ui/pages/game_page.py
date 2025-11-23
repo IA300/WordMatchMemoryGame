@@ -226,11 +226,11 @@ class GamePage(tk.Frame):
 
             card_data.append(
                 {
-                    "position": (x1, y1),
-                    "content": c1,
-                    "type": t1,
-                    "pair_id": pid,
-                    "id": card_id,
+                    "position": (x1, y1), # 位置
+                    "content": c1, # 内容
+                    "type": t1, # A 还是 B
+                    "pair_id": pid, # A|B 串
+                    "id": card_id, # 卡片 id
                 }
             )
             card_id += 1
