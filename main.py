@@ -1,5 +1,3 @@
-# main.py
-
 from ui.app_window import AppWindow
 
 if __name__ == "__main__":

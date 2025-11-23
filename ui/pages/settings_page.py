@@ -1,5 +1,3 @@
-# ui/pages/settings_page.py
-
 import json
 import tkinter as tk
 from tkinter import Button

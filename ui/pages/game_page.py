@@ -1,5 +1,3 @@
-# ui/pages/game_page.py
-
 import random,time,json,os
 import tkinter as tk
 from tkinter import Button, Label, simpledialog

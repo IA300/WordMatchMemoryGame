@@ -1,5 +1,3 @@
-# ui/app_window.py
-
 import tkinter as tk
 from .pages import MenuPage, SettingsPage, NewGamePage, RatingPage, GamePage
 from game.file_tool import load_words

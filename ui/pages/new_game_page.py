@@ -1,5 +1,3 @@
-# ui/pages/new_game_page.py
-
 import tkinter as tk
 from tkinter import Button, Label, OptionMenu, Checkbutton, StringVar, BooleanVar
 from game.config import *

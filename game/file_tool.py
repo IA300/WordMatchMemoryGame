@@ -1,5 +1,3 @@
-# loader.py
-
 import json,os
 import tkinter as tk
 from tkinter import messagebox

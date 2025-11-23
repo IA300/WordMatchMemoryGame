@@ -1,5 +1,3 @@
-# ui/pages/rating_page.py
-
 import json,os
 import tkinter as tk
 from tkinter import Button, Listbox, Label, messagebox

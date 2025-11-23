@@ -1,5 +1,3 @@
-# ui/pages/menu_page.py
-
 import tkinter as tk
 from tkinter import Button, Label
 from game.config import *

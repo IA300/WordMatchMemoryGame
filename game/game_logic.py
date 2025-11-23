@@ -1,5 +1,3 @@
-# game/game_logic.py
-
 from game.config import BASE_SCORE, COMBO_BONUS
 
 class GameLogic:
