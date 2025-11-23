@@ -95,8 +95,6 @@
 ## 🚀 发布与下载
 
 - 新增：[release-v1.0](https://github.com/IA300/Python-Tkinter-WordMatchMemoryGame/releases/tag/pyinstaller)（已使用 PyInstaller 打包，Windows 可直接运行）—— 下载即玩。
-  - 在仓库 Releases 页面找到 releasev1.0（通常为 zip 或 exe），下载后解压运行目录下的 main.exe 或双击可执行文件即可开始游戏。📦
-- 注意：打包文件可能依赖本地环境（例如防病毒拦截或缺少 VC 运行时），遇到问题请参考 PyInstaller 文档或直接通过源码运行。⚠️
 
 ## 🔮 未来可扩展点
 
